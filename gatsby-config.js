@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `My Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://mygatsbysitedudka.netlify.app`,
   },
-  plugins: [],
-}
+  plugins: ['gatsby-plugin-image', 'gatsby-plugin-sharp'],
+};
