@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import Seo from '../components/seo';
 
+// styles
 const pageStyles = {
   color: '#232129',
   padding: '96px',
@@ -24,6 +25,7 @@ const codeStyles = {
   borderRadius: 4,
 };
 
+// markup
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
@@ -35,7 +37,7 @@ const NotFoundPage = () => {
           <>
             <br />
             Try creating a page in{' '}
-            <code style={codeStyles}>src/pages/</code>.
+            <code style={codeStyles}>src/pages</code>.
             <br />
           </>
         ) : null}
